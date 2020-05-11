@@ -1,0 +1,50 @@
+header {
+  min-height: 3rem;
+  background-color: coral;
+}
+section {
+  margin-bottom: 1rem;
+  min-height: 85vh;
+}
+
+footer {
+  background-color: #FF6347;
+  bottom: 0;
+}
+
+.material-icons {
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+.btn-coral {
+  background-color: coral;
+}
+.jumbotron{    
+  background: url("https://images.unsplash.com/photo-1525454473724-c6273f88a80d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  padding-top: 10vh!important;
+  padding-bottom: 15vh!important;
+  padding-left: 10vw;
+}
+
+.page-title { 
+
+     margin: 20px; 
+
+ } 
+
+ .login-form { 
+
+    background: #fdfdfd; 
+
+    display: block; 
+
+    margin: 0; 
+
+    margin-left: 20px; 
+
+}

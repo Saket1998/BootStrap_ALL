@@ -1,0 +1,23 @@
+.material-icons {
+            vertical-align: middle;
+        }
+	
+	#fav {
+	    font-size:28px;
+	}
+	
+        #fav:hover {
+            color: red;
+            cursor: pointer;
+        }
+
+        .new-release {
+            color: brown;
+            font-size: 18px;
+            margin-bottom: 3px;
+        }
+	
+	#product {
+	    width: 98%; 
+	    margin: 0px auto;
+	 }

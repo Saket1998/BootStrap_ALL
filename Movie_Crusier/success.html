@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Crusier</title>
+    <link rel="icon" type="image/ico" href="img/logo.png"/>
+    <!-- Boostrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Gijgo -->
+    <link
+      href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+      <header class="container-fluid sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-dark p-0">
+            <div class="container p-3">
+                <a href="#" class="navbar-brand">
+                    <span class="material-icons">movie</span> Movie Crusier
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <i class="navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-items">
+                            <a href="admin.html" class="nav-link">
+                                Movie List
+                            </a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="edit.html" class="nav-link active">
+                                Add Movie
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      </header>
+      <section class="container-fluid alone">
+          <div class="container">
+              <div class="row my-3">
+                  <div class="col-12">
+                      <h1>Edit Movie</h1>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-12">
+                      <div class="alert alert-success">
+                          Movie Saved Successfully
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </section>
+      <footer class="container-fluid">
+          <div class="container p-3">
+              <div class="row">
+                  <div class="col-12 text-white mx-auto">
+                      Copyright <span id="date"></span>
+                  </div>
+              </div>
+          </div>
+      </footer>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Proper JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Gijgo JS -->
+    <script
+      src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- Cuustom JS -->
+    <script src="script/script.js"></script>
+  </body>
+</html>

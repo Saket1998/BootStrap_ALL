@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TruYum_BootStrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Material Icon-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Gijgo -->
+    <link
+      href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Place your stylesheet here-->
+    <link href="../style/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-dark p-0">
+        <div class="container text-white">
+          <a class="navbar-brand" href="#" 
+            ><i class="material-icons">local_dining</i>truYum</a
+          >
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <form class="form inline">
+                <a class="nav-link active" href="menu-item-list.html" 
+                  >Menu Items</a
+                >
+              </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="container">
+        <div>
+      <h3 style="font-weight: inherit" class="py-2">Edit Menu Item</h3>
+    </div>
+
+      <form action="">
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group py-2">
+              <label for="title">Item Name</label>
+              <input type="text" name="title" id="title" class="form-control py-2" />
+            </div>
+          </div>
+        </div>
+        <div class="row pb-4">
+          <div class="col-12 col-lg-3">
+            <div class="form-group">
+              <label for="price">Price</label>
+              <input
+                type="number"
+                name="price"
+                id="price"
+                class="form-control"
+                step="0.01"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="form-group">
+              <label for="dateOfLaunch">Date Of Launch</label>
+              <input
+                type="text"
+                class="form-control"
+                id="dateOfLaunch"
+                name="dateOfLaunch"
+                placeholder="dd/mm/yyyy"
+                required
+              />
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+              <div class="form-group">
+                    <label for="category">Category</label>
+                    <select id="category" name="category" class="form-control">
+                        <option value="Main Course">Main Course</option>
+                        <option value="Starter">Starter</option>
+                        <option value="Dessert">Dessert</option>
+                    </select>
+              </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="form-group">
+              <label for="active">Active</label><br>
+              <label class="radio-inline"
+                ><input
+                  type="radio"
+                  class="mx-1"
+                  name="active"
+                  id="activeYes"
+                  value="male"
+                  required
+                />Yes</label
+              >
+              <label class="radio-inline"
+                ><input
+                  type="radio"
+                  class="mx-1"
+                  name="active"
+                  id="activeNo"
+                  value="female"
+                  required
+                />No</label
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-12">        
+                <label class="checkbox-inline"><input type="checkbox" name="freeDelivery" id="freeDelivery" value="true"> Free Delivery</label>
+            </div>
+        </div>
+                <a class="btn btn-coral text-white mt-3" href="edit-menu-item-success.html">Save</a>
+                <a class="btn btn-coral text-white" href="edit-menu-item-validation.html" hidden>Save</a>
+      </form>
+    </section>
+    <footer class="container-fluid page-footer">
+      <div class="container text-white p-1">
+        Copyright 2019
+      </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js"
+      type="text/javascript"
+    ></script>
+    
+    <script src="../js/script.js"></script>
+  </body>
+</html>
